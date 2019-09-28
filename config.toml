@@ -1,3 +1,25 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "http://localhost:1313/"
+# baseurl = "https://example.com"
+title = "Iserlohner Gravel Serie"
+author = "Christoph Ketzer"
+copyright = "Copyright © 2019, Christoph Ketzer and the Hugo Authors; all rights reserved."
+canonifyurls = true
+paginate = 3
+theme = "silhouette-hugo"
+
+pygmentsUseClasses=true
+
+#disqusShortname = ""
+#googleAnalytics = ""
+
+[params]
+author = "Christoph Ketzer"
+title = "Iserlohner Gravel Serie"
+introDescription = "Für alle Gravelfreunde rund um Iserlohn, Strecken, Ausfahrten und Segmente inklusive Monats- und Gesamtwertung mit Strava"
+contentSharing = "Der Blog darf gerne geteilt werden, beim Teilen bitte nicht die Quellenangabe vergessen"
+
+[social]
+instagram = "pxpress"
+# linkedin = ""
+# twitter = ""
+
