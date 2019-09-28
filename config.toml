@@ -1,5 +1,5 @@
-baseurl = "http://localhost:1313/"
-# baseurl = "https://example.com"
+# baseurl = "http://localhost:1313/"
+baseurl = "https://is-gravel-serie.netlify.com/"
 title = "Iserlohner Gravel Serie"
 author = "Christoph Ketzer"
 copyright = "Copyright © 2019, Christoph Ketzer and the Hugo Authors; all rights reserved."
