@@ -1,0 +1,32 @@
+backend:
+  name: git-gateway
+  branch: master
+
+  media_folder: "static/uploads"
+  public_folder: "uploads"
+
+  collections:
+    - name: "ciu_womo"
+      label: "WoMoEintrag"
+      folder: "content/womo"
+      create: true
+      slug: "{{year}}--{{slug}}"
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Datum", name: "date", widget: "datetime"}
+        - {label: "Tags", name: "tags", widget: "string"}
+        - {label: "Kategorie", name: "categories", widget: "string", default:"Wohnmobiltour"}
+        - {label: "Serie", name: "series", widget: "string"}
+        - {label: 'Text hier eingeben', name: 'body', widget: 'markdown' }
+    - name: "ciu_races"
+      label: "Wettkampf Eintrag"
+      folder: "content/races"
+      create: true
+      slug: "{{year}}--{{slug}}"
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Datum", name: "date", widget: "datetime"}
+        - {label: "Tags", name: "tags", widget: "string"}
+        - {label: "Kategorie", name: "categories", widget: "string", default:"Wettkämpfe"}
+        - {label: "Serie", name: "series", widget: "string"}
+        - {label: 'Text hier eingeben', name: 'body', widget: 'markdown' }
